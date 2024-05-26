@@ -13,12 +13,12 @@ const Navbar = () => {
         <a href="#project" className="text-primary-500 font-semibold">
           Projects
         </a>
-        <a href="#certificate" className="text-primary-500 font-semibold">
+        {/* <a href="#certificate" className="text-primary-500 font-semibold">
           Certificates
         </a>
         <a href="#journal" className="text-primary-500 font-semibold">
           Journal
-        </a>
+        </a> */}
         <a href="#contact" className="text-primary-500 font-semibold">
           Contact
         </a>

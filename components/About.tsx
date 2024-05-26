@@ -70,10 +70,10 @@ const About: React.FC = () => {
             <p>But I'm happy to be involved with other technologies as well.</p>
           </div>
         </div>
-        <hr className="h-[2px] mt-16 " />
+        {/* <hr className="h-[2px] mt-16 " />
         <div className="flex justify-center items-center mt-5">
           <Image src={"/images/cv.png"} width={500} height={1000} alt="cv" />
-        </div>
+        </div> */}
       </div>
     </section>
   );

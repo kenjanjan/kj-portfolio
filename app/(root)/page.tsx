@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
-      <Certificates />
-      <Journal />
+      {/* <Certificates />
+      <Journal /> */}
       <Contact />
     </section>
   );

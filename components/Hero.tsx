@@ -4,8 +4,10 @@ const Hero = () => {
   return (
     <div className="wrapper xl:mt-0 sm:mt-10  mt-14">
       <div className="flex flex-col">
-        <div className="flex md:flex-row md:justify-between xl:px-40 xl:py-44 
-             flex-col-reverse justify-center  items-center  mt-10">
+        <div
+          className="flex md:flex-row md:justify-between xl:px-40 xl:py-44 
+             flex-col-reverse justify-center  items-center  mt-10"
+        >
           <div className="flex flex-col md:mt-0 mt-14">
             <div className="text-4xl md:text-5xl font-black flex   md:text-start  text-center  items-center justify-center md:justify-start w-full md:px-0 px-20 ml-5 md:ml-4">
               Full-Stack
@@ -32,6 +34,7 @@ const Hero = () => {
             <div className="flex mt-10 md:ml-4 justify-center md:justify-start">
               <Link
                 href={"https://www.linkedin.com/in/kent-john-liloc-28530923a/"}
+                target="_blank"
               >
                 <img
                   src="/icons/linkedin.png"
@@ -40,7 +43,7 @@ const Hero = () => {
                   className="cursor-pointer  pointer-events-none select-none"
                 />
               </Link>
-              <Link href={"https://github.com/kntjhnllc"}>
+              <Link href={"https://github.com/kenjanjan"} target="_blank">
                 <img
                   src="/icons/github.png"
                   alt="github"
@@ -71,15 +74,17 @@ const Hero = () => {
           </div>
           <div className="flex md:gap-14 gap-10 w-full md:ml-5 flex-wrap items-center justify-center">
             <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
-              <Link href={"https://html.com/"}>
+              <Link href={"https://html.com/"} target="_blank">
                 <img
                   src="icons/html.png"
                   alt="html"
-                  
                   className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
-              <Link href={"https://www.w3schools.com/css/css_intro.asp"}>
+              <Link
+                href={"https://www.w3schools.com/css/css_intro.asp"}
+                target="_blank"
+              >
                 <img
                   src="icons/css.png"
                   alt="css"
@@ -88,14 +93,14 @@ const Hero = () => {
               </Link>
             </div>
             <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
-              <Link href={"https://www.javascript.com/"}>
+              <Link href={"https://www.javascript.com/"} target="_blank">
                 <img
                   src="icons/js.png"
                   alt="js"
                   className="rounded-sm md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
-              <Link href={"https://www.typescriptlang.org/ "}>
+              <Link href={"https://www.typescriptlang.org/ "} target="_blank">
                 <img
                   src="icons/ts.png"
                   alt="ts"
@@ -104,14 +109,14 @@ const Hero = () => {
               </Link>
             </div>
             <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
-              <Link href={"https://nextjs.org/"}>
+              <Link href={"https://nextjs.org/"} target="_blank">
                 <img
                   src="icons/nextjs.svg"
                   alt="next"
                   className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
-              <Link href={"https://nestjs.com/"}>
+              <Link href={"https://nestjs.com/"} target="_blank">
                 <img
                   src="icons/nestjs.svg"
                   alt="nest"
@@ -120,14 +125,14 @@ const Hero = () => {
               </Link>
             </div>
             <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
-              <Link href={"https://typeorm.io/"}>
+              <Link href={"https://typeorm.io/"} target="_blank">
                 <img
                   src="icons/typeorm.svg"
                   alt="next"
                   className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
                 />
               </Link>
-              <Link href={"https://www.postgresql.org/"}>
+              <Link href={"https://www.postgresql.org/"} target="_blank">
                 <img
                   src="icons/postgresql.svg"
                   alt="nest"
@@ -136,14 +141,14 @@ const Hero = () => {
               </Link>
             </div>
             <div className="flex md:gap-5 gap-1 hover:-translate-y-8 transition transform duration-300">
-            <Link href={"https://tailwindcss.com/"}>
-              <img
-                src="icons/tailwind.png"
-                alt="tailwind"
-                width={35}
-                className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
-              />
-            </Link>
+              <Link href={"https://tailwindcss.com/"} target="_blank">
+                <img
+                  src="icons/tailwind.png"
+                  alt="tailwind"
+                  width={35}
+                  className="cursor-pointer md:w-[35px] w-[50px]  pointer-events-none select-none"
+                />
+              </Link>
             </div>
           </div>
         </div>

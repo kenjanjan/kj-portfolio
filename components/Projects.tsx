@@ -45,7 +45,7 @@ const Projects = () => {
                       <h1>{project.tech2}</h1>
                     </div>
                     <div className="flex gap-5 mt-10">
-                      <Link href={project.github}>
+                      <Link href={project.github} target="_blank">
                         <div className="flex items-center gap-1 font-semibold cursor-pointer">
                           <h1>Code</h1>
                           <img
@@ -56,7 +56,7 @@ const Projects = () => {
                           />
                         </div>
                       </Link>
-                      <Link href={project.demo}>
+                      <Link href={project.demo} target="_blank">
                         <div className="flex items-center gap-1 font-semibold cursor-pointer">
                           <h1>Live Demo</h1>
                           <img

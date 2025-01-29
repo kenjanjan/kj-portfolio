@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
               <div className=" flex flex-col">
                 <h1 className="font-bold">Mail</h1>
-                <h1 className="cursor-pointer hover:text-blue-500">kentjohnliloc@gmail.com</h1>
+                <a href="mailto:kentjohnliloc@gmail.com" className="cursor-pointer hover:text-blue-500">kentjohnliloc@gmail.com</a>
               </div>
             </div>
           </div>

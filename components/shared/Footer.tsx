@@ -9,7 +9,7 @@ const Footer = () => {
           <p>Copyright © 2024. All rights are reserved</p>
           <div className="flex items-center gap-2 ">
             <Link
-              href={"https://www.linkedin.com/in/kent-john-liloc-28530923a/"}
+              href={"https://www.linkedin.com/in/kent-john-liloc-28530923a/"} target="_blank"
             >
               <img
                 src="/icons/linkedin-white.png"
@@ -17,7 +17,7 @@ const Footer = () => {
                 className="cursor-pointer pointer-events-none"
               />
             </Link>
-            <Link href={"https://github.com/kntjhnllc"}>
+            <Link href={"https://github.com/kenjanjan"} target="_blank">
               <img
                 src="/icons/github-white.png"
                 alt="github"
